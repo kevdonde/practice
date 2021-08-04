@@ -5,9 +5,9 @@ This is just a small typescript / node repo of challenge questions that I may co
 
 ## Installation
 
-The repository has a devcontainer.json. You should be able to run `>Remote-containers: Rebuild and Reopen in Container` from vscode. 
+The repository has a devcontainer.json file. You should be able to run `>Remote-containers: Rebuild and Reopen in Container` from the vscode command palette. 
 
-## Run the programs
+## Run the program
 
 From the command line you can then run any of the following commands as long as you `npm ci` or `npm install` first.
 
