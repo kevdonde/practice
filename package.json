@@ -1,0 +1,26 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-watch": "tsc --watch",
+    "build": "tsc",
+    "preserve": "npm run build",
+    "serve": "node build/src/funWithAnagrams.js",
+    "preserve:ts": "npm run build",
+    "predebug": "npm run build",
+    "debug": "node --inspect=9227 leftRotate.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.10",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
