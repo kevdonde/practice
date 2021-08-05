@@ -1,6 +1,7 @@
 import { funWithAnagrams } from "./funWithAnagrams";
 
-test('Test 1', () => {
+// Not a comprehensive list of tests.
+test('anagram, anagrams, code', () => {
     const result = funWithAnagrams(['code', 'doce', 'anagrams', 'anagram', 'gramanas']);
     expect(result).toContain('anagram');
     expect(result).toContain('anagrams');
@@ -9,7 +10,7 @@ test('Test 1', () => {
 });
 
 
-test('Test 2', () => {
+test('code, frame, framer', () => {
     const result = funWithAnagrams(['code', 'doce', 'ecod', 'framer', 'frame']);
     expect(result).toContain('code');
     expect(result).toContain('frame');

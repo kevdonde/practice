@@ -31,8 +31,3 @@ export function funWithAnagrams(text: string[]): string[] {
     return [...anagrams.values()].sort();
 }
 
-
-// Not a comprehensive list of tests.
-console.log(funWithAnagrams(['code', 'doce', 'anagrams', 'anagram', 'gramanas']));
-console.log(funWithAnagrams(['code', 'doce', 'ecod', 'framer', 'frame']));
-
